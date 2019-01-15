@@ -56,6 +56,11 @@ export default StyleSheet.create({
     alignItems: 'center',
     borderBottomColor: 'rgba(43,43,43,0.1)',
     borderBottomWidth: 1,
+    paddingLeft: 15,
+    paddingRight: 15
+  },
+  singleCurrencyClicked: {
+    backgroundColor:"rgba(81, 127, 164, 0.2)"
   },
   currencyText:{
     fontWeight:"300",
@@ -80,6 +85,7 @@ export default StyleSheet.create({
   numpadContainer:{
     height:270,
     flexDirection:"row",
+    paddingTop:15,
     ...ifIphoneX({
         paddingBottom: 20
     })
@@ -94,5 +100,17 @@ export default StyleSheet.create({
   },
   numpadTopNumber:{
     paddingTop:10
+  },
+  numpadTopBar:{
+    height:10,
+    backgroundColor:"black"
+  },
+  modal1:{
+    height:270,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: -4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: -4,
   }
 });
