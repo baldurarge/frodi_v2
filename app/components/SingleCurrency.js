@@ -9,6 +9,10 @@ class SingleCurrency extends Component{
         super(props)
     }
 
+    addTheCommas(value){
+        return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    }
+
     render(){
         return(
             <TouchableOpacity 
@@ -19,7 +23,7 @@ class SingleCurrency extends Component{
             >
                 <Text style={styles.currencyText}>{this.props.currency.shortName}</Text>
                 <View style={styles.currencyValueContainer}>
-                    <Text style={styles.currencyValue}>{this.props.touched ? this.props.touched.value : this.props.currency.value}</Text>
+                    <Text style={styles.currencyValue}>{this.props.touched ? this.addTheCommas(this.props.touched.value) : this.addTheCommas(this.props.currency.value)}</Text>
                     <Text style={styles.currencyValueName}>{this.props.currency.longName}</Text>
                 </View>
             </TouchableOpacity>
