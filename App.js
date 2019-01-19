@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, NavigatorIOS} from 'react-native';
 import Calculator from './app/views/Calculator';
 
 const instructions = Platform.select({

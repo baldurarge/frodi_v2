@@ -24,8 +24,32 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins Black Italic.ttf</string>
+		<string>Poppins Black.ttf</string>
+		<string>Poppins Bold Italic.ttf</string>
+		<string>Poppins Bold.ttf</string>
+		<string>Poppins ExtraBold Italic.ttf</string>
+		<string>Poppins ExtraBold.ttf</string>
+		<string>Poppins ExtraLight Italic.ttf</string>
+		<string>Poppins ExtraLight.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -40,80 +64,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>VisbyRoundCF-Bold.woff</string>
-		<string>VisbyRoundCF-Bold.woff2</string>
-		<string>VisbyRoundCF-BoldOblique.woff</string>
-		<string>VisbyRoundCF-BoldOblique.woff2</string>
-		<string>VisbyRoundCF-DemiBold.woff</string>
-		<string>VisbyRoundCF-DemiBold.woff2</string>
-		<string>VisbyRoundCF-DemiBoldOblique.woff</string>
-		<string>VisbyRoundCF-DemiBoldOblique.woff2</string>
-		<string>VisbyRoundCF-ExtraBold.woff</string>
-		<string>VisbyRoundCF-ExtraBold.woff2</string>
-		<string>VisbyRoundCF-ExtraBoldOblique.woff</string>
-		<string>VisbyRoundCF-ExtraBoldOblique.woff2</string>
-		<string>VisbyRoundCF-ExtraLight.woff</string>
-		<string>VisbyRoundCF-ExtraLight.woff2</string>
-		<string>VisbyRoundCF-ExtraLightOblique.woff</string>
-		<string>VisbyRoundCF-ExtraLightOblique.woff2</string>
-		<string>VisbyRoundCF-Heavy.woff</string>
-		<string>VisbyRoundCF-Heavy.woff2</string>
-		<string>VisbyRoundCF-HeavyOblique.woff</string>
-		<string>VisbyRoundCF-HeavyOblique.woff2</string>
-		<string>VisbyRoundCF-Light.woff</string>
-		<string>VisbyRoundCF-Light.woff2</string>
-		<string>VisbyRoundCF-LightOblique.woff</string>
-		<string>VisbyRoundCF-LightOblique.woff2</string>
-		<string>VisbyRoundCF-Medium.woff</string>
-		<string>VisbyRoundCF-Medium.woff2</string>
-		<string>VisbyRoundCF-MediumOblique.woff</string>
-		<string>VisbyRoundCF-MediumOblique.woff2</string>
-		<string>VisbyRoundCF-Regular.woff</string>
-		<string>VisbyRoundCF-Regular.woff2</string>
-		<string>VisbyRoundCF-RegularOblique.woff</string>
-		<string>VisbyRoundCF-RegularOblique.woff2</string>
-		<string>VisbyRoundCF-Bold.otf</string>
-		<string>VisbyRoundCF-BoldOblique.otf</string>
-		<string>VisbyRoundCF-DemiBold.otf</string>
-		<string>VisbyRoundCF-DemiBoldOblique.otf</string>
-		<string>VisbyRoundCF-ExtraBold.otf</string>
-		<string>VisbyRoundCF-ExtraBoldOblique.otf</string>
-		<string>VisbyRoundCF-ExtraLight.otf</string>
-		<string>VisbyRoundCF-ExtraLightOblique.otf</string>
-		<string>VisbyRoundCF-Heavy.otf</string>
-		<string>VisbyRoundCF-HeavyOblique.otf</string>
-		<string>VisbyRoundCF-Light.otf</string>
-		<string>VisbyRoundCF-LightOblique.otf</string>
-		<string>VisbyRoundCF-Medium.otf</string>
-		<string>VisbyRoundCF-MediumOblique.otf</string>
-		<string>VisbyRoundCF-Regular.otf</string>
-		<string>VisbyRoundCF-RegularOblique.otf</string>
-		<string>Visby Round CF Bold Oblique.otf</string>
-		<string>Visby Round CF Bold.otf</string>
-		<string>Visby Round CF Demi Bold.otf</string>
-		<string>Poppins Black Italic.ttf</string>
-		<string>Poppins Black.ttf</string>
-		<string>Poppins Bold Italic.ttf</string>
-		<string>Poppins Bold.ttf</string>
-		<string>Poppins ExtraBold Italic.ttf</string>
-		<string>Poppins ExtraBold.ttf</string>
-		<string>Poppins ExtraLight Italic.ttf</string>
-		<string>Poppins ExtraLight.ttf</string>
-	</array>
 </dict>
 </plist>

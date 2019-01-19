@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -22,6 +23,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1526E1CC5AB340769C43B40E /* Poppins ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6DC65FDFFBF4EEEBCCA8F2D /* Poppins ExtraLight.ttf */; };
+		153E625BA8804303820C4F98 /* Poppins ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2D6CD1E669A40DEAE3438D5 /* Poppins ExtraBold.ttf */; };
+		21F68E9606934C378A5CF4AF /* Poppins Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6945EF46FE364AFA91C61264 /* Poppins Bold.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -35,68 +39,14 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* xTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* xTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		84DCADEA81E54482BE46E887 /* VisbyRoundCF-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = D0A2F1090D6F45F1B7E0850D /* VisbyRoundCF-Bold.woff */; };
-		9328533F5A004DC7B6514C6F /* VisbyRoundCF-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = EE26F4CDF95B4C49B8BC0725 /* VisbyRoundCF-Bold.woff2 */; };
-		64BA9BDA947C40F8AE962238 /* VisbyRoundCF-BoldOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = A88A0A0140AD4892A06BE199 /* VisbyRoundCF-BoldOblique.woff */; };
-		84BC4A81672C46328E51385A /* VisbyRoundCF-BoldOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 59A0DD73B7DE45E5B635A033 /* VisbyRoundCF-BoldOblique.woff2 */; };
-		8721EA96001643AB97AEB45E /* VisbyRoundCF-DemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B51B2BCD294E44FB9431E3F1 /* VisbyRoundCF-DemiBold.woff */; };
-		AB22D80601224BD081BF72D4 /* VisbyRoundCF-DemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 36CAB7539B6E4014A6CF3741 /* VisbyRoundCF-DemiBold.woff2 */; };
-		04A54419454742DB84E115DC /* VisbyRoundCF-DemiBoldOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3201987925E045E6B8C5E4A7 /* VisbyRoundCF-DemiBoldOblique.woff */; };
-		41F590568471461D9261B056 /* VisbyRoundCF-DemiBoldOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 07411DC4DA5D4EC7A4D2B5BB /* VisbyRoundCF-DemiBoldOblique.woff2 */; };
-		57AEDF32064843119118F2F4 /* VisbyRoundCF-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 58C3FE27A7204C87BE95EB44 /* VisbyRoundCF-ExtraBold.woff */; };
-		1E5A62775BD04C0587634601 /* VisbyRoundCF-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0B96F0B4244B4C55BE1CF54F /* VisbyRoundCF-ExtraBold.woff2 */; };
-		D49E4C3ABDFE4DC6B43335DF /* VisbyRoundCF-ExtraBoldOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = F5CD7AEA57F8471A9B45C89A /* VisbyRoundCF-ExtraBoldOblique.woff */; };
-		7B6C545B16FC4AEF89F843C4 /* VisbyRoundCF-ExtraBoldOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9781EBFF36FF4F8FAB9B0F5B /* VisbyRoundCF-ExtraBoldOblique.woff2 */; };
-		852D66F393B043EFAD83A821 /* VisbyRoundCF-ExtraLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8D7542881B9D4F4DA9F61FF9 /* VisbyRoundCF-ExtraLight.woff */; };
-		F49A2BDD1DBF4EFFAE60D9C0 /* VisbyRoundCF-ExtraLight.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E6D2476EF6D24E9A8B8D57FC /* VisbyRoundCF-ExtraLight.woff2 */; };
-		5170C415B5E740A685B11ABC /* VisbyRoundCF-ExtraLightOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9CA03693A8A44C8294DD86BF /* VisbyRoundCF-ExtraLightOblique.woff */; };
-		03715EF7F0E942399FDE4F98 /* VisbyRoundCF-ExtraLightOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F1AC7641CFFF4209B7E675DC /* VisbyRoundCF-ExtraLightOblique.woff2 */; };
-		644A7BC61F05469B8AF1343D /* VisbyRoundCF-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7C77E28D5B674798B077CF5C /* VisbyRoundCF-Heavy.woff */; };
-		1B15478D49F84390B1D6D9CA /* VisbyRoundCF-Heavy.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5E1C36D0CB2C44A689805F0E /* VisbyRoundCF-Heavy.woff2 */; };
-		AA701D5E5BAF4F3FA3841468 /* VisbyRoundCF-HeavyOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9A14327BA7A24BDBA7794034 /* VisbyRoundCF-HeavyOblique.woff */; };
-		16BB5E4ECEC542CFB24356D6 /* VisbyRoundCF-HeavyOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 786CFE3CC0EB40A39A949871 /* VisbyRoundCF-HeavyOblique.woff2 */; };
-		5CCDC7C8323A4CBFA1AA8145 /* VisbyRoundCF-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = FCA6309C33C74E23AA4162F9 /* VisbyRoundCF-Light.woff */; };
-		83F9C352504747AE81125F28 /* VisbyRoundCF-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F4272F080BD1430EA2107921 /* VisbyRoundCF-Light.woff2 */; };
-		DF1354E0D18E40D7831D41D4 /* VisbyRoundCF-LightOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = 98D2D2BB249C4B04BF7D26D3 /* VisbyRoundCF-LightOblique.woff */; };
-		6E3E55618720445EAD0A72C5 /* VisbyRoundCF-LightOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A63D6D6EA7B7462A8FCD9C3C /* VisbyRoundCF-LightOblique.woff2 */; };
-		60E291B4682B42DCB27CFC47 /* VisbyRoundCF-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = DB5F8D60A8E24DCBA807C69A /* VisbyRoundCF-Medium.woff */; };
-		FB67C16839FB41B48C3E0460 /* VisbyRoundCF-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD73F88DB14900A89810CD /* VisbyRoundCF-Medium.woff2 */; };
-		B39997E2D068442196C14B83 /* VisbyRoundCF-MediumOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = BB0BD9DF7BC343098B2D53E1 /* VisbyRoundCF-MediumOblique.woff */; };
-		4F5082F710D64F43A6111C94 /* VisbyRoundCF-MediumOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 028C6449C6DD434A97CCE50A /* VisbyRoundCF-MediumOblique.woff2 */; };
-		17676E31B0D943A49D5718DE /* VisbyRoundCF-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 07856A997E9D4799AF1E66E6 /* VisbyRoundCF-Regular.woff */; };
-		9505E8C7FC0649F5989A7316 /* VisbyRoundCF-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 93749A8768924E08980CC21C /* VisbyRoundCF-Regular.woff2 */; };
-		323B7CD2B516484CB33BC848 /* VisbyRoundCF-RegularOblique.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A3EDE2A184E159A3F1A13 /* VisbyRoundCF-RegularOblique.woff */; };
-		5760AA1CA18D4B88BA7F8AE1 /* VisbyRoundCF-RegularOblique.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 805251B278504EDFBD1AF370 /* VisbyRoundCF-RegularOblique.woff2 */; };
-		77C6A76A2A424BD098D17E3E /* VisbyRoundCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE94ECCEF680408FB9D60409 /* VisbyRoundCF-Bold.otf */; };
-		DBEFD6087AAA418B964A2AD9 /* VisbyRoundCF-BoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65B2B46406664BD991C713BC /* VisbyRoundCF-BoldOblique.otf */; };
-		E89928E056E04FC4869EB73F /* VisbyRoundCF-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9DDA6A8A2A47208ECD9951 /* VisbyRoundCF-DemiBold.otf */; };
-		E08727D1B27146D4A5D97C01 /* VisbyRoundCF-DemiBoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A22D865ABC43404CB36E7A45 /* VisbyRoundCF-DemiBoldOblique.otf */; };
-		9210EA4EA43C4D8A9A9F8E33 /* VisbyRoundCF-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55BA67F4E534477ABC07948A /* VisbyRoundCF-ExtraBold.otf */; };
-		A17C5D456936493B87635BAF /* VisbyRoundCF-ExtraBoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAFD33A854FD4EE09C12B68C /* VisbyRoundCF-ExtraBoldOblique.otf */; };
-		500CA39807FF41EBBAF6D542 /* VisbyRoundCF-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79EC44351B8C49799CF36F1C /* VisbyRoundCF-ExtraLight.otf */; };
-		724ACED820C2433DA3953E8D /* VisbyRoundCF-ExtraLightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F48D42C99BB4B0BA62E7A60 /* VisbyRoundCF-ExtraLightOblique.otf */; };
-		57B2732B8F6F45F4ABE386BD /* VisbyRoundCF-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5FA106920334A2498CDE8EB /* VisbyRoundCF-Heavy.otf */; };
-		F85F52D5A622405BB20A020F /* VisbyRoundCF-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0756037C834343D8A12F2E46 /* VisbyRoundCF-HeavyOblique.otf */; };
-		678B620C314942C1B9D38387 /* VisbyRoundCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65D1C7BE785B4E13B775C9BB /* VisbyRoundCF-Light.otf */; };
-		207634788E7A4331B3ECCC37 /* VisbyRoundCF-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DF644BB5F2244A68CDC7C4A /* VisbyRoundCF-LightOblique.otf */; };
-		B18D1B8043B24DF98F976F8B /* VisbyRoundCF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B876C29834E5CA52953BC /* VisbyRoundCF-Medium.otf */; };
-		2A29191B629544CEB84B7411 /* VisbyRoundCF-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFF50430B2A642E8AFB7A78B /* VisbyRoundCF-MediumOblique.otf */; };
-		FC3B0D497D834AB98833FC1F /* VisbyRoundCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 453004E1DB7F4E928E98BBED /* VisbyRoundCF-Regular.otf */; };
-		970EF848C71D4B83B5690CB8 /* VisbyRoundCF-RegularOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = B00F0107FD214F10A9E2DCC1 /* VisbyRoundCF-RegularOblique.otf */; };
-		451824A41D974AA5B2852810 /* Visby Round CF Bold Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34D51067A89473EA04B667F /* Visby Round CF Bold Oblique.otf */; };
-		BA79E61B34314D3BB404BB02 /* Visby Round CF Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3980313DDF0E4A97890A1F94 /* Visby Round CF Bold.otf */; };
-		22B439259A96491AB56808D8 /* Visby Round CF Demi Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37A9A03CE65B4F7A84D2ECCD /* Visby Round CF Demi Bold.otf */; };
-		A3A5E45048CD4A138274CEB2 /* Poppins Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 971BE026BF3A43159BDADF3C /* Poppins Black Italic.ttf */; };
 		54DABF6ECE804131BD75EE4A /* Poppins Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7ED2389AA9A4238BA7F8185 /* Poppins Black.ttf */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9B19B4ED33C74B69B5D08BEA /* Poppins Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8850015E780447D496409584 /* Poppins Bold Italic.ttf */; };
-		21F68E9606934C378A5CF4AF /* Poppins Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6945EF46FE364AFA91C61264 /* Poppins Bold.ttf */; };
-		EC6AFD2F54A34B478906B3B0 /* Poppins ExtraBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C34B7C35BA84F3FB9407BD6 /* Poppins ExtraBold Italic.ttf */; };
-		153E625BA8804303820C4F98 /* Poppins ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2D6CD1E669A40DEAE3438D5 /* Poppins ExtraBold.ttf */; };
-		C7660E82BEF14973BB567503 /* Poppins ExtraLight Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0D8E70C96342E7BE4C184A /* Poppins ExtraLight Italic.ttf */; };
-		1526E1CC5AB340769C43B40E /* Poppins ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6DC65FDFFBF4EEEBCCA8F2D /* Poppins ExtraLight.ttf */; };
+		A3A5E45048CD4A138274CEB2 /* Poppins Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 971BE026BF3A43159BDADF3C /* Poppins Black Italic.ttf */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B59EE1ACDF5D4FCF902C7C77 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A68D5B9A8BC4F7D965E72F7 /* libBVLinearGradient.a */; };
+		C7660E82BEF14973BB567503 /* Poppins ExtraLight Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0D8E70C96342E7BE4C184A /* Poppins ExtraLight Italic.ttf */; };
+		EC6AFD2F54A34B478906B3B0 /* Poppins ExtraBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C34B7C35BA84F3FB9407BD6 /* Poppins ExtraBold Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -352,6 +302,20 @@
 			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
 			remoteInfo = "RCTAnimation-tvOS";
 		};
+		6779234121F3407800EACA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		6779234321F3407800EACA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -385,6 +349,13 @@
 		00E356EE1AD99517003FC87E /* xTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* xTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xTests.m; sourceTree = "<group>"; };
+		028C6449C6DD434A97CCE50A /* VisbyRoundCF-MediumOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-MediumOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.woff2"; sourceTree = "<group>"; };
+		07411DC4DA5D4EC7A4D2B5BB /* VisbyRoundCF-DemiBoldOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.woff2"; sourceTree = "<group>"; };
+		0756037C834343D8A12F2E46 /* VisbyRoundCF-HeavyOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-HeavyOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.otf"; sourceTree = "<group>"; };
+		07856A997E9D4799AF1E66E6 /* VisbyRoundCF-Regular.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Regular.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.woff"; sourceTree = "<group>"; };
+		0B5A3EDE2A184E159A3F1A13 /* VisbyRoundCF-RegularOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-RegularOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.woff"; sourceTree = "<group>"; };
+		0B96F0B4244B4C55BE1CF54F /* VisbyRoundCF-ExtraBold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.woff2"; sourceTree = "<group>"; };
+		135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -398,71 +369,64 @@
 		2D02E47B1E0B4A5D006451C7 /* x-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "x-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* x-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "x-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3201987925E045E6B8C5E4A7 /* VisbyRoundCF-DemiBoldOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.woff"; sourceTree = "<group>"; };
+		36CAB7539B6E4014A6CF3741 /* VisbyRoundCF-DemiBold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.woff2"; sourceTree = "<group>"; };
+		37A9A03CE65B4F7A84D2ECCD /* Visby Round CF Demi Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Visby Round CF Demi Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Demi Bold.otf"; sourceTree = "<group>"; };
+		3980313DDF0E4A97890A1F94 /* Visby Round CF Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Visby Round CF Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Bold.otf"; sourceTree = "<group>"; };
+		453004E1DB7F4E928E98BBED /* VisbyRoundCF-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Regular.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.otf"; sourceTree = "<group>"; };
+		55BA67F4E534477ABC07948A /* VisbyRoundCF-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.otf"; sourceTree = "<group>"; };
+		58C3FE27A7204C87BE95EB44 /* VisbyRoundCF-ExtraBold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.woff"; sourceTree = "<group>"; };
+		59A0DD73B7DE45E5B635A033 /* VisbyRoundCF-BoldOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-BoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.woff2"; sourceTree = "<group>"; };
+		5E1C36D0CB2C44A689805F0E /* VisbyRoundCF-Heavy.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Heavy.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.woff2"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		65B2B46406664BD991C713BC /* VisbyRoundCF-BoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-BoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.otf"; sourceTree = "<group>"; };
+		65D1C7BE785B4E13B775C9BB /* VisbyRoundCF-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Light.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.otf"; sourceTree = "<group>"; };
+		6945EF46FE364AFA91C61264 /* Poppins Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Bold.ttf"; path = "../app/assets/fonts/Poppins/Poppins Bold.ttf"; sourceTree = "<group>"; };
+		6B9DDA6A8A2A47208ECD9951 /* VisbyRoundCF-DemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.otf"; sourceTree = "<group>"; };
+		6DF644BB5F2244A68CDC7C4A /* VisbyRoundCF-LightOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-LightOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.otf"; sourceTree = "<group>"; };
+		786CFE3CC0EB40A39A949871 /* VisbyRoundCF-HeavyOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-HeavyOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.woff2"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		79EC44351B8C49799CF36F1C /* VisbyRoundCF-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLight.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.otf"; sourceTree = "<group>"; };
+		7C77E28D5B674798B077CF5C /* VisbyRoundCF-Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Heavy.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.woff"; sourceTree = "<group>"; };
+		7E5B876C29834E5CA52953BC /* VisbyRoundCF-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Medium.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.otf"; sourceTree = "<group>"; };
+		805251B278504EDFBD1AF370 /* VisbyRoundCF-RegularOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-RegularOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.woff2"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8850015E780447D496409584 /* Poppins Bold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Bold Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins Bold Italic.ttf"; sourceTree = "<group>"; };
+		8A68D5B9A8BC4F7D965E72F7 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
+		8D7542881B9D4F4DA9F61FF9 /* VisbyRoundCF-ExtraLight.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLight.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.woff"; sourceTree = "<group>"; };
+		93749A8768924E08980CC21C /* VisbyRoundCF-Regular.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Regular.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.woff2"; sourceTree = "<group>"; };
+		971BE026BF3A43159BDADF3C /* Poppins Black Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Black Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins Black Italic.ttf"; sourceTree = "<group>"; };
+		9781EBFF36FF4F8FAB9B0F5B /* VisbyRoundCF-ExtraBoldOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.woff2"; sourceTree = "<group>"; };
+		98D2D2BB249C4B04BF7D26D3 /* VisbyRoundCF-LightOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-LightOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.woff"; sourceTree = "<group>"; };
+		9A14327BA7A24BDBA7794034 /* VisbyRoundCF-HeavyOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-HeavyOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.woff"; sourceTree = "<group>"; };
+		9C34B7C35BA84F3FB9407BD6 /* Poppins ExtraBold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins ExtraBold Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraBold Italic.ttf"; sourceTree = "<group>"; };
+		9CA03693A8A44C8294DD86BF /* VisbyRoundCF-ExtraLightOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLightOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.woff"; sourceTree = "<group>"; };
+		9CAD73F88DB14900A89810CD /* VisbyRoundCF-Medium.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Medium.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.woff2"; sourceTree = "<group>"; };
+		9F48D42C99BB4B0BA62E7A60 /* VisbyRoundCF-ExtraLightOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLightOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.otf"; sourceTree = "<group>"; };
+		A22D865ABC43404CB36E7A45 /* VisbyRoundCF-DemiBoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.otf"; sourceTree = "<group>"; };
+		A5FA106920334A2498CDE8EB /* VisbyRoundCF-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Heavy.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.otf"; sourceTree = "<group>"; };
+		A63D6D6EA7B7462A8FCD9C3C /* VisbyRoundCF-LightOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-LightOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.woff2"; sourceTree = "<group>"; };
+		A88A0A0140AD4892A06BE199 /* VisbyRoundCF-BoldOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-BoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.woff"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		D0A2F1090D6F45F1B7E0850D /* VisbyRoundCF-Bold.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-Bold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EE26F4CDF95B4C49B8BC0725 /* VisbyRoundCF-Bold.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-Bold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A88A0A0140AD4892A06BE199 /* VisbyRoundCF-BoldOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-BoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		59A0DD73B7DE45E5B635A033 /* VisbyRoundCF-BoldOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-BoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B51B2BCD294E44FB9431E3F1 /* VisbyRoundCF-DemiBold.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		36CAB7539B6E4014A6CF3741 /* VisbyRoundCF-DemiBold.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3201987925E045E6B8C5E4A7 /* VisbyRoundCF-DemiBoldOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		07411DC4DA5D4EC7A4D2B5BB /* VisbyRoundCF-DemiBoldOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		58C3FE27A7204C87BE95EB44 /* VisbyRoundCF-ExtraBold.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B96F0B4244B4C55BE1CF54F /* VisbyRoundCF-ExtraBold.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F5CD7AEA57F8471A9B45C89A /* VisbyRoundCF-ExtraBoldOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9781EBFF36FF4F8FAB9B0F5B /* VisbyRoundCF-ExtraBoldOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBoldOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8D7542881B9D4F4DA9F61FF9 /* VisbyRoundCF-ExtraLight.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLight.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E6D2476EF6D24E9A8B8D57FC /* VisbyRoundCF-ExtraLight.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLight.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9CA03693A8A44C8294DD86BF /* VisbyRoundCF-ExtraLightOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLightOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F1AC7641CFFF4209B7E675DC /* VisbyRoundCF-ExtraLightOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLightOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7C77E28D5B674798B077CF5C /* VisbyRoundCF-Heavy.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-Heavy.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5E1C36D0CB2C44A689805F0E /* VisbyRoundCF-Heavy.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-Heavy.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A14327BA7A24BDBA7794034 /* VisbyRoundCF-HeavyOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-HeavyOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		786CFE3CC0EB40A39A949871 /* VisbyRoundCF-HeavyOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-HeavyOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FCA6309C33C74E23AA4162F9 /* VisbyRoundCF-Light.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-Light.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F4272F080BD1430EA2107921 /* VisbyRoundCF-Light.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-Light.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		98D2D2BB249C4B04BF7D26D3 /* VisbyRoundCF-LightOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-LightOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A63D6D6EA7B7462A8FCD9C3C /* VisbyRoundCF-LightOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-LightOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB5F8D60A8E24DCBA807C69A /* VisbyRoundCF-Medium.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-Medium.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9CAD73F88DB14900A89810CD /* VisbyRoundCF-Medium.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-Medium.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BB0BD9DF7BC343098B2D53E1 /* VisbyRoundCF-MediumOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-MediumOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		028C6449C6DD434A97CCE50A /* VisbyRoundCF-MediumOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-MediumOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		07856A997E9D4799AF1E66E6 /* VisbyRoundCF-Regular.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-Regular.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		93749A8768924E08980CC21C /* VisbyRoundCF-Regular.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-Regular.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B5A3EDE2A184E159A3F1A13 /* VisbyRoundCF-RegularOblique.woff */ = {isa = PBXFileReference; name = "VisbyRoundCF-RegularOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		805251B278504EDFBD1AF370 /* VisbyRoundCF-RegularOblique.woff2 */ = {isa = PBXFileReference; name = "VisbyRoundCF-RegularOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AE94ECCEF680408FB9D60409 /* VisbyRoundCF-Bold.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		65B2B46406664BD991C713BC /* VisbyRoundCF-BoldOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-BoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-BoldOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6B9DDA6A8A2A47208ECD9951 /* VisbyRoundCF-DemiBold.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A22D865ABC43404CB36E7A45 /* VisbyRoundCF-DemiBoldOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-DemiBoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBoldOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		55BA67F4E534477ABC07948A /* VisbyRoundCF-ExtraBold.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DAFD33A854FD4EE09C12B68C /* VisbyRoundCF-ExtraBoldOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraBoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		79EC44351B8C49799CF36F1C /* VisbyRoundCF-ExtraLight.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLight.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F48D42C99BB4B0BA62E7A60 /* VisbyRoundCF-ExtraLightOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-ExtraLightOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A5FA106920334A2498CDE8EB /* VisbyRoundCF-Heavy.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-Heavy.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0756037C834343D8A12F2E46 /* VisbyRoundCF-HeavyOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-HeavyOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-HeavyOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		65D1C7BE785B4E13B775C9BB /* VisbyRoundCF-Light.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-Light.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6DF644BB5F2244A68CDC7C4A /* VisbyRoundCF-LightOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-LightOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-LightOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E5B876C29834E5CA52953BC /* VisbyRoundCF-Medium.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-Medium.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EFF50430B2A642E8AFB7A78B /* VisbyRoundCF-MediumOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-MediumOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		453004E1DB7F4E928E98BBED /* VisbyRoundCF-Regular.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-Regular.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B00F0107FD214F10A9E2DCC1 /* VisbyRoundCF-RegularOblique.otf */ = {isa = PBXFileReference; name = "VisbyRoundCF-RegularOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D34D51067A89473EA04B667F /* Visby Round CF Bold Oblique.otf */ = {isa = PBXFileReference; name = "Visby Round CF Bold Oblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Bold Oblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3980313DDF0E4A97890A1F94 /* Visby Round CF Bold.otf */ = {isa = PBXFileReference; name = "Visby Round CF Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		37A9A03CE65B4F7A84D2ECCD /* Visby Round CF Demi Bold.otf */ = {isa = PBXFileReference; name = "Visby Round CF Demi Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Demi Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		971BE026BF3A43159BDADF3C /* Poppins Black Italic.ttf */ = {isa = PBXFileReference; name = "Poppins Black Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins Black Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D7ED2389AA9A4238BA7F8185 /* Poppins Black.ttf */ = {isa = PBXFileReference; name = "Poppins Black.ttf"; path = "../app/assets/fonts/Poppins/Poppins Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8850015E780447D496409584 /* Poppins Bold Italic.ttf */ = {isa = PBXFileReference; name = "Poppins Bold Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6945EF46FE364AFA91C61264 /* Poppins Bold.ttf */ = {isa = PBXFileReference; name = "Poppins Bold.ttf"; path = "../app/assets/fonts/Poppins/Poppins Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9C34B7C35BA84F3FB9407BD6 /* Poppins ExtraBold Italic.ttf */ = {isa = PBXFileReference; name = "Poppins ExtraBold Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraBold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2D6CD1E669A40DEAE3438D5 /* Poppins ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins ExtraBold.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA0D8E70C96342E7BE4C184A /* Poppins ExtraLight Italic.ttf */ = {isa = PBXFileReference; name = "Poppins ExtraLight Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraLight Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C6DC65FDFFBF4EEEBCCA8F2D /* Poppins ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins ExtraLight.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		8A68D5B9A8BC4F7D965E72F7 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AE94ECCEF680408FB9D60409 /* VisbyRoundCF-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Bold.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.otf"; sourceTree = "<group>"; };
+		B00F0107FD214F10A9E2DCC1 /* VisbyRoundCF-RegularOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-RegularOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-RegularOblique.otf"; sourceTree = "<group>"; };
+		B2D6CD1E669A40DEAE3438D5 /* Poppins ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins ExtraBold.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraBold.ttf"; sourceTree = "<group>"; };
+		B51B2BCD294E44FB9431E3F1 /* VisbyRoundCF-DemiBold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-DemiBold.woff"; sourceTree = "<group>"; };
+		BB0BD9DF7BC343098B2D53E1 /* VisbyRoundCF-MediumOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-MediumOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.woff"; sourceTree = "<group>"; };
+		C6DC65FDFFBF4EEEBCCA8F2D /* Poppins ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins ExtraLight.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraLight.ttf"; sourceTree = "<group>"; };
+		D0A2F1090D6F45F1B7E0850D /* VisbyRoundCF-Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Bold.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.woff"; sourceTree = "<group>"; };
+		D34D51067A89473EA04B667F /* Visby Round CF Bold Oblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Visby Round CF Bold Oblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/Visby Round CF Bold Oblique.otf"; sourceTree = "<group>"; };
+		D7ED2389AA9A4238BA7F8185 /* Poppins Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Black.ttf"; path = "../app/assets/fonts/Poppins/Poppins Black.ttf"; sourceTree = "<group>"; };
+		DAFD33A854FD4EE09C12B68C /* VisbyRoundCF-ExtraBoldOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBoldOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.otf"; sourceTree = "<group>"; };
+		DB5F8D60A8E24DCBA807C69A /* VisbyRoundCF-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Medium.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Medium.woff"; sourceTree = "<group>"; };
+		E6D2476EF6D24E9A8B8D57FC /* VisbyRoundCF-ExtraLight.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLight.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLight.woff2"; sourceTree = "<group>"; };
+		EA0D8E70C96342E7BE4C184A /* Poppins ExtraLight Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins ExtraLight Italic.ttf"; path = "../app/assets/fonts/Poppins/Poppins ExtraLight Italic.ttf"; sourceTree = "<group>"; };
+		EE26F4CDF95B4C49B8BC0725 /* VisbyRoundCF-Bold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Bold.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.woff2"; sourceTree = "<group>"; };
+		EFF50430B2A642E8AFB7A78B /* VisbyRoundCF-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-MediumOblique.otf"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-MediumOblique.otf"; sourceTree = "<group>"; };
+		F1AC7641CFFF4209B7E675DC /* VisbyRoundCF-ExtraLightOblique.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLightOblique.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraLightOblique.woff2"; sourceTree = "<group>"; };
+		F4272F080BD1430EA2107921 /* VisbyRoundCF-Light.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Light.woff2"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.woff2"; sourceTree = "<group>"; };
+		F5CD7AEA57F8471A9B45C89A /* VisbyRoundCF-ExtraBoldOblique.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBoldOblique.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-ExtraBoldOblique.woff"; sourceTree = "<group>"; };
+		FCA6309C33C74E23AA4162F9 /* VisbyRoundCF-Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Light.woff"; path = "../app/assets/fonts/VisbyRoundCF/VisbyRoundCF-Light.woff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -644,90 +608,8 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
-				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		78C398B11ACF4ADC00677621 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
-				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
-				146833FF1AC3E56700842450 /* React.xcodeproj */,
-				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
-				ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */,
-				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
-				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
-				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
-				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
-				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
-				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
-				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
-				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		832341B11AAA6A8300B99B32 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				832341B51AAA6A8300B99B32 /* libRCTText.a */,
-				3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* x */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* xTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				5041AA354E7243F099F44FF1 /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* x.app */,
-				00E356EE1AD99517003FC87E /* xTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* x-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* x-tvOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ADBDB9201DFEBF0600ED6528 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
-				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5041AA354E7243F099F44FF1 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				D0A2F1090D6F45F1B7E0850D /* VisbyRoundCF-Bold.woff */,
 				EE26F4CDF95B4C49B8BC0725 /* VisbyRoundCF-Bold.woff2 */,
@@ -791,7 +673,106 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6779231721F3407400EACA87 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				8A68D5B9A8BC4F7D965E72F7 /* libBVLinearGradient.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		6779233D21F3407700EACA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6779234221F3407800EACA87 /* libBVLinearGradient.a */,
+				6779234421F3407800EACA87 /* libBVLinearGradient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C398B11ACF4ADC00677621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
+				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
+				146833FF1AC3E56700842450 /* React.xcodeproj */,
+				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */,
+				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
+				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
+				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
+				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
+				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
+				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
+				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
+				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		832341B11AAA6A8300B99B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832341B51AAA6A8300B99B32 /* libRCTText.a */,
+				3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* x */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* xTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				5041AA354E7243F099F44FF1 /* Resources */,
+				6779231721F3407400EACA87 /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* x.app */,
+				00E356EE1AD99517003FC87E /* xTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* x-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* x-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBDB9201DFEBF0600ED6528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
+				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -879,10 +860,15 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RBC3KZW83W;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = RBC3KZW83W;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RBC3KZW83W;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -904,6 +890,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 6779233D21F3407700EACA87 /* Products */;
+					ProjectRef = 135A5BCF7DD04749A12D61AB /* BVLinearGradient.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1202,6 +1192,20 @@
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		6779234221F3407800EACA87 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 6779234121F3407800EACA87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6779234421F3407800EACA87 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 6779234321F3407800EACA87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1239,57 +1243,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				84DCADEA81E54482BE46E887 /* VisbyRoundCF-Bold.woff in Resources */,
-				9328533F5A004DC7B6514C6F /* VisbyRoundCF-Bold.woff2 in Resources */,
-				64BA9BDA947C40F8AE962238 /* VisbyRoundCF-BoldOblique.woff in Resources */,
-				84BC4A81672C46328E51385A /* VisbyRoundCF-BoldOblique.woff2 in Resources */,
-				8721EA96001643AB97AEB45E /* VisbyRoundCF-DemiBold.woff in Resources */,
-				AB22D80601224BD081BF72D4 /* VisbyRoundCF-DemiBold.woff2 in Resources */,
-				04A54419454742DB84E115DC /* VisbyRoundCF-DemiBoldOblique.woff in Resources */,
-				41F590568471461D9261B056 /* VisbyRoundCF-DemiBoldOblique.woff2 in Resources */,
-				57AEDF32064843119118F2F4 /* VisbyRoundCF-ExtraBold.woff in Resources */,
-				1E5A62775BD04C0587634601 /* VisbyRoundCF-ExtraBold.woff2 in Resources */,
-				D49E4C3ABDFE4DC6B43335DF /* VisbyRoundCF-ExtraBoldOblique.woff in Resources */,
-				7B6C545B16FC4AEF89F843C4 /* VisbyRoundCF-ExtraBoldOblique.woff2 in Resources */,
-				852D66F393B043EFAD83A821 /* VisbyRoundCF-ExtraLight.woff in Resources */,
-				F49A2BDD1DBF4EFFAE60D9C0 /* VisbyRoundCF-ExtraLight.woff2 in Resources */,
-				5170C415B5E740A685B11ABC /* VisbyRoundCF-ExtraLightOblique.woff in Resources */,
-				03715EF7F0E942399FDE4F98 /* VisbyRoundCF-ExtraLightOblique.woff2 in Resources */,
-				644A7BC61F05469B8AF1343D /* VisbyRoundCF-Heavy.woff in Resources */,
-				1B15478D49F84390B1D6D9CA /* VisbyRoundCF-Heavy.woff2 in Resources */,
-				AA701D5E5BAF4F3FA3841468 /* VisbyRoundCF-HeavyOblique.woff in Resources */,
-				16BB5E4ECEC542CFB24356D6 /* VisbyRoundCF-HeavyOblique.woff2 in Resources */,
-				5CCDC7C8323A4CBFA1AA8145 /* VisbyRoundCF-Light.woff in Resources */,
-				83F9C352504747AE81125F28 /* VisbyRoundCF-Light.woff2 in Resources */,
-				DF1354E0D18E40D7831D41D4 /* VisbyRoundCF-LightOblique.woff in Resources */,
-				6E3E55618720445EAD0A72C5 /* VisbyRoundCF-LightOblique.woff2 in Resources */,
-				60E291B4682B42DCB27CFC47 /* VisbyRoundCF-Medium.woff in Resources */,
-				FB67C16839FB41B48C3E0460 /* VisbyRoundCF-Medium.woff2 in Resources */,
-				B39997E2D068442196C14B83 /* VisbyRoundCF-MediumOblique.woff in Resources */,
-				4F5082F710D64F43A6111C94 /* VisbyRoundCF-MediumOblique.woff2 in Resources */,
-				17676E31B0D943A49D5718DE /* VisbyRoundCF-Regular.woff in Resources */,
-				9505E8C7FC0649F5989A7316 /* VisbyRoundCF-Regular.woff2 in Resources */,
-				323B7CD2B516484CB33BC848 /* VisbyRoundCF-RegularOblique.woff in Resources */,
-				5760AA1CA18D4B88BA7F8AE1 /* VisbyRoundCF-RegularOblique.woff2 in Resources */,
-				77C6A76A2A424BD098D17E3E /* VisbyRoundCF-Bold.otf in Resources */,
-				DBEFD6087AAA418B964A2AD9 /* VisbyRoundCF-BoldOblique.otf in Resources */,
-				E89928E056E04FC4869EB73F /* VisbyRoundCF-DemiBold.otf in Resources */,
-				E08727D1B27146D4A5D97C01 /* VisbyRoundCF-DemiBoldOblique.otf in Resources */,
-				9210EA4EA43C4D8A9A9F8E33 /* VisbyRoundCF-ExtraBold.otf in Resources */,
-				A17C5D456936493B87635BAF /* VisbyRoundCF-ExtraBoldOblique.otf in Resources */,
-				500CA39807FF41EBBAF6D542 /* VisbyRoundCF-ExtraLight.otf in Resources */,
-				724ACED820C2433DA3953E8D /* VisbyRoundCF-ExtraLightOblique.otf in Resources */,
-				57B2732B8F6F45F4ABE386BD /* VisbyRoundCF-Heavy.otf in Resources */,
-				F85F52D5A622405BB20A020F /* VisbyRoundCF-HeavyOblique.otf in Resources */,
-				678B620C314942C1B9D38387 /* VisbyRoundCF-Light.otf in Resources */,
-				207634788E7A4331B3ECCC37 /* VisbyRoundCF-LightOblique.otf in Resources */,
-				B18D1B8043B24DF98F976F8B /* VisbyRoundCF-Medium.otf in Resources */,
-				2A29191B629544CEB84B7411 /* VisbyRoundCF-MediumOblique.otf in Resources */,
-				FC3B0D497D834AB98833FC1F /* VisbyRoundCF-Regular.otf in Resources */,
-				970EF848C71D4B83B5690CB8 /* VisbyRoundCF-RegularOblique.otf in Resources */,
-				451824A41D974AA5B2852810 /* Visby Round CF Bold Oblique.otf in Resources */,
-				BA79E61B34314D3BB404BB02 /* Visby Round CF Bold.otf in Resources */,
-				22B439259A96491AB56808D8 /* Visby Round CF Demi Bold.otf in Resources */,
 				A3A5E45048CD4A138274CEB2 /* Poppins Black Italic.ttf in Resources */,
 				54DABF6ECE804131BD75EE4A /* Poppins Black.ttf in Resources */,
 				9B19B4ED33C74B69B5D08BEA /* Poppins Bold Italic.ttf in Resources */,
@@ -1416,13 +1369,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RBC3KZW83W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = xTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1430,14 +1392,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x.app/x";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1446,9 +1400,18 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = RBC3KZW83W;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = xTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1456,14 +1419,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x.app/x";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
@@ -1473,6 +1428,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = RBC3KZW83W;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = x/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1480,13 +1440,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.Frodi;
 				PRODUCT_NAME = x;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1495,6 +1451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RBC3KZW83W;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = x/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1502,13 +1463,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.Frodi;
 				PRODUCT_NAME = x;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
@@ -1522,27 +1479,28 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RBC3KZW83W;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "x-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.x-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
+				INFOPLIST_FILE = "x-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Frodi-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
@@ -1557,26 +1515,27 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RBC3KZW83W;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "x-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.x-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
+				INFOPLIST_FILE = "x-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Frodi-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
@@ -1591,8 +1550,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = "x-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1602,14 +1569,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x-tvOS.app/x-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1624,8 +1583,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+				);
 				INFOPLIST_FILE = "x-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1635,14 +1602,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x-tvOS.app/x-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
